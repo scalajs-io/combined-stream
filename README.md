@@ -17,7 +17,7 @@ with more or less compatability with combined-stream.
 <a name="build_requirements"></a>
 ### Build Requirements
 
-* [SBT v0.13.16](http://www.scala-sbt.org/download.html)
+* [SBT v1.2.x](http://www.scala-sbt.org/download.html)
 
 <a name="building_sdk"></a>
 ### Build/publish the SDK locally
@@ -86,7 +86,7 @@ combinedStream.pipe(Fs.createWriteStream("combined.txt"))
 To add the `combined-stream` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "combined-stream" % "0.4.2"
+libraryDependencies += "io.scalajs.npm" %%% "combined-stream" % "0.5.0"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
